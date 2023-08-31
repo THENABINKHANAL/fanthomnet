@@ -4,7 +4,7 @@ from datetime import datetime
 import math
 
 # load and set our key
-openai.api_key = "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"
+openai.api_key = "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"
 
 from fathomnet.api import images
 from fathomnet.api import regions
@@ -325,7 +325,7 @@ def run_prompt(prompt, messages=[]):
 
 
 
-#print(json.dumps(run_prompt("Find me 3 newest images of species 'Aurelia aurita'")))
+print(json.dumps(run_prompt("Find me 3 newest images of species 'Aurelia aurita'")))
 #print("----")
 #print(json.dumps(run_prompt("Find me images of species 'Aurelia aurita' in Monterey Bay and depth less than 5000m", [])))
 #print(json.dumps(run_prompt("Which image has the largest depth?")))
